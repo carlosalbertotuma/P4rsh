@@ -1,5 +1,7 @@
 #!/bin/bash
 # Parsh web : creditos Desec Security, apenas modifiquei.
+# Modificiado: Bl4dsc4n
+
 echo "dominio"
 read dominio
 mkdir $dominio
