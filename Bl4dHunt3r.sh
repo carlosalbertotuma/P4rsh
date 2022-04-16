@@ -2,8 +2,9 @@
 # Parsh web : creditos Desec Security, apenas modifiquei.
 echo "dominio"
 read dominio
-cd /home/bl4dsc4n/testandoooo
-#for u in $(echo $dominio);do
+mkdir $dominio
+cd $dominio
+
 wget -q -c $dominio -O $dominio
 
 # Filtrando links
